@@ -1,0 +1,17 @@
+parent(alex,mwangi).
+parent(alex,lala).
+parent(alex,johny).
+parent(alex,bobby).
+parent(loli,harriet).
+parent(loli,tracy).
+male(johny).
+male(bobby).
+male(mwangi).
+female(lala).
+female(loli).
+female(harriet).
+female(tracy).
+mother(X,Y):-parent(X,Y),female(X).
+father(X,Y):-parent(X,Y),male(X).
+sister(X,Y):-parent(Z,Y),parent(Z,Y),female(Y).
+brother(X,Y):-parent(Z,Y),parent(Z,Y),male(Y).
