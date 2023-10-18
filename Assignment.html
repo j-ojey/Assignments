@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/download.png" type="image/x-icon">
+    <title>INTERNET APPLICATION PROGRAMMING</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p>
+                <label for="userName">Name :</label>
+                <input type="text" name="userName" id="userName" placeholder="Group 14" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="userEmail">Email Address :</label>
+                <input type="text" name="userEmail" id="userEmail" placeholder="example@gmail.com" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="gender">Gender :</label>
+                <input type="radio" name="male" id="male" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="female" id="female" value="female">
+                <label for="female">Female</label>
+            </p>
+
+            <p>
+                <label for="age">Age :</label>
+                <select name="ages" id="ages">
+                <option value="under18" selected>Under18</option>
+                <option value="under30">Under30</option>
+                <option value="under60">Under60</option>
+                <option value="over60">Over60</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Please Comment Here</legend>
+            <p>
+                <label for="comment">Comment:</label><br>
+                <textarea name="comment" id="comment" cols="15" rows="2" placeholder="Type your message here"></textarea>
+            </p>
+        </fieldset><br>
+        <button type="submit">Submit</button>
+    </form>
+    &NonBreakingSpace;
+    &NonBreakingSpace;
+    <form>
+        <fieldset>
+            <legend>Employee Personal Details</legend>
+            <p>
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" autocomplete="on" required >
+            </p>
+            <p>
+                <label for="phonenumber">Phone Number :</label>
+                <input type="text" name="phonenumber" id="phonenumber" autocomplete="on">
+            </p>
+            <p>
+                <label for="idnumber">ID Number :</label>
+                <input type="number" name="idnumber" id="idnumber" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="krapin">KRA PIN :</label>
+                <input type="number" name="krapin" id="krapin" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="userEmail">Email Address :</label>
+                <input type="text" name="userEmail" id="userEmail" autocomplete="on">
+            </p>
+             <p>
+                <label for="gender">Gender :</label>
+                <input type="radio" name="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="female" id="female">
+                <label for="female">Female</label>
+             </p>
+             <p>
+                <label for="department">Department :</label>
+                <select name="department" id="departmet">
+                    <option value="management">Management</option>
+                    <option value="Finance">Finance</option>
+                    <option value="ict" selected>ICT</option>
+                    <option value="humanResource">Human Resource</option>
+                    <option value="customerservice">Customer Service</option>
+
+                </select>
+             </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Employee Renumaration Package</legend>
+            <p>
+                <label for="salary">Employee Salary :</label>
+                <input type="number" name="salary" id="salary">
+            </p>
+            <p>
+                <label for="allowance">House Allowance :</label>
+                <input type="number" name="allowance" id="allowance">
+            </p>
+            <p>
+                <label for="allowance">Commuter Allowance :</label>
+                <input type="number" name="allowance" id="allowance">
+            </p>
+        </fieldset><br>
+
+        <button type="register">Register Employee</button>
+    </form>
+</body>
+</html>
